@@ -58,7 +58,7 @@
 #ifdef HAS_MOUSE_TP
   // We store the trackpoint settings in a separate file
   // to make organization a little easier.
-  #include "include/mouse_tp.dtsi"
+  #include "mouse_tp.dtsi"
 #endif  // HAS_MOUSE_TP
 
 
@@ -381,7 +381,7 @@ ZMK_HOLD_TAP(hmr,
 #ifdef HAS_MOUSE_TP
 
     // Automatically activated when the mouse or trackpoint moves.
-    // Configured in `include/mouse_tp.dtsi`.
+    // Configured in `mouse_tp.dtsi`.
     MouseTP_layer {
       display-name = "TP";
       bindings = <
@@ -397,7 +397,7 @@ ZMK_HOLD_TAP(hmr,
       >;
     };
 
-    // You can find the defines for the actual key press behaviors in `include/mouse_tp.dtsi`.
+    // You can find the defines for the actual key press behaviors in `mouse_tp.dtsi`.
     MouseSettings_layer {
       display-name = "TP Set";
       bindings = <
