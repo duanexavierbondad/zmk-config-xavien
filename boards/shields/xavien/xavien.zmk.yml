@@ -1,0 +1,13 @@
+file_format: "1"
+id: xavien
+name: Xavien
+type: shield
+url: https://github.com/foostan/crkbd/
+requires: [pro_micro]
+exposes: []
+features:
+  - keys
+siblings:
+  - xavien_dongle
+  - xavien_left
+  - xavien_right
