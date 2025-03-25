@@ -13,9 +13,9 @@
 #
 ---
 include:
-  - board: nice_nano_v3
+  - board: nice_nano_v2
     shield: xavien_left
-  - board: nice_nano_v3
+  - board: nice_nano_v2
     shield: xavien_right
   - board: nice_nano_v2
     shield: xavien_dongle
