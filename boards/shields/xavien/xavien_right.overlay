@@ -7,10 +7,6 @@
         zmk,kscan = &kscan0;
     };
 
-&led_strip {
-    chain-length = <28>;
-};
-
 &default_transform {
 	col-offset = <6>;
 };
