@@ -7,9 +7,6 @@
 #include "xavien.dtsi"
 
 / {
-	chosen {
-		zmk,kscan = &kscan0;
-	};
 
 	&led_strip {
 		chain-length = <28>;
