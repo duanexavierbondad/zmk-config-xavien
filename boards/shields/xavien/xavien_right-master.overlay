@@ -2,8 +2,11 @@
 
 #include "xavien.dtsi"
 
-/
 
+/{chosen {
+    		zephyr,display = &oled;
+	};
+};
 &default_transform {
 	col-offset = <6>;
 };
