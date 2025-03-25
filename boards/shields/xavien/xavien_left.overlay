@@ -5,7 +5,7 @@
  */
 
 #include "xavien.dtsi"
-
+/
 &led_strip {
     chain-length = <28>;
 };
