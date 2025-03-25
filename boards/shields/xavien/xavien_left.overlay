@@ -10,10 +10,6 @@
     chosen {
         zmk,kscan = &kscan0;
     };
-&led_strip {
-    chain-length = <28>;
-};
-
 
 &kscan0 {
 	col-gpios
