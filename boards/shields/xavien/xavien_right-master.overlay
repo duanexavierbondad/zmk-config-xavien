@@ -10,6 +10,9 @@
 &default_transform {
 	col-offset = <6>;
 };
+&led_strip {
+    chain-length = <56>;
+};
 
 &kscan0 {
     col-gpios
