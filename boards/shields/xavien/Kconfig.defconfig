@@ -12,9 +12,6 @@ if SHIELD_XAVIEN_DONGLE || SHIELD_XAVIEN_DONGLE_XIAO
   config ZMK_USB
     default y
 
-  config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
-    default 2
-
   config BT_MAX_CONN
     default 5
 
@@ -33,9 +30,6 @@ if SHIELD_XAVIEN_LEFT-MASTER || SHIELD_XAVIEN_RIGHT-MASTER
 
   config ZMK_USB
     default y
-
-  config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
-    default 1
 
   config BT_MAX_CONN
     default 5
