@@ -1,45 +1,20 @@
 # Copyright (c) 2020 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-if SHIELD_XAVIEN_DONGLE || SHIELD_XAVIEN_DONGLE_XIAO
+if SHIELD_XAVIEN_DONGLE || SHIELD_XAVIEN_DONGLE_XIAO || SHIELD_XAVIEN_LEFT-MASTER || SHIELD_XAVIEN_RIGHT-MASTER
 
-  config ZMK_KEYBOARD_NAME
-    default "XAVIEN"
-
-  config ZMK_SPLIT_ROLE_CENTRAL
-    default y
-
-  config ZMK_USB
-    default y
-
-  config BT_MAX_CONN
-    default 5
-
-  config BT_MAX_PAIRED
-    default 5
+config ZMK_KEYBOARD_NAME
+	default "XAVIEN"
+	
+config ZMK_SPLIT_BLE_ROLE_CENTRAL
+	default y
+	
+config ZMK_USB
+	default y
 
 endif
 
-if SHIELD_XAVIEN_LEFT-MASTER || SHIELD_XAVIEN_RIGHT-MASTER
-
-  config ZMK_KEYBOARD_NAME
-    default "XAVIEN"
-
-  config ZMK_SPLIT_ROLE_CENTRAL
-    default y
-
-  config ZMK_USB
-    default y
-
-  config BT_MAX_CONN
-    default 5
-
-  config BT_MAX_PAIRED
-    default 5
-
-endif
-
-if SHIELD_XAVIEN_LEFT || SHIELD_XAVIEN_RIGHT || SHIELD_XAVIEN_LEFT-MASTER || SHIELD_XAVIEN_RIGHT-MASTER
+if SHIELD_XAVIEN_LEFT || SHIELD_XAVIEN_RIGHT || SHIELD_XAVIEN_DONGLE || SHIELD_XAVIEN_DONGLE_XIAO || SHIELD_XAVIEN_LEFT-MASTER || SHIELD_XAVIEN_RIGHT-MASTER
 
 config ZMK_SPLIT
 	default y
