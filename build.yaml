@@ -22,9 +22,9 @@ include:
   - board: seeeduino_xiao_ble
     shield: xavien_dongle_xiao
   - board: nice_nano_v2
-    shield: xavien_left-master nice_view
+    shield: xavien_left_master nice_view
   - board: nice_nano_v2
-    shield: xavien_right-master nice_view
+    shield: xavien_right_master nice_view
   - board: nice_nano_v2
     shield: settings_reset
   - board: seeeduino_xiao_ble
