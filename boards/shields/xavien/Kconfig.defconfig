@@ -3,14 +3,8 @@
 
 if SHIELD_XAVIEN_DONGLE || SHIELD_XAVIEN_DONGLE_XIAO || SHIELD_XAVIEN_LEFT_MASTER || SHIELD_XAVIEN_RIGHT_MASTER
 
-config ZMK_KEYBOARD_NAME
-	default "XAVIEN"
-	
-config ZMK_SPLIT_ROLE_CENTRAL
-	default y
-	
-config ZMK_USB
-	default y
+	config ZMK_SPLIT_ROLE_CENTRAL
+		default y
 
 endif
 
