@@ -1,6 +1,6 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-
-&cuddlykeyboards_ferris_layout {
+#include "layouts/layouts.dtsi"
+&xavien_five_col_layout {
     transform = <&default_transform>;
 };
 
