@@ -1,17 +1,9 @@
-/*
- * Copyright (c) 2020 The ZMK Contributors
- *
- * SPDX-License-Identifier: MIT
- */
-
 #include "xavien.dtsi"
 
 /{chosen {
     		zephyr,display = &nice_view;
 	};
 };
-
-
 
 &kscan0 {
 	col-gpios
