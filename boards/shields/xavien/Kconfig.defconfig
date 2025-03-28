@@ -6,8 +6,8 @@ if SHIELD_XAVIEN_DONGLE || SHIELD_XAVIEN_DONGLE_XIAO || SHIELD_XAVIEN_LEFT-MASTE
 config ZMK_KEYBOARD_NAME
 	default "XAVIEN"
 	
-config ZMK_SPLIT_BLE_ROLE_CENTRAL
-	default y
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
 	
 config ZMK_USB
 	default y
