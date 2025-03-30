@@ -221,7 +221,7 @@ ZMK_HOLD_TAP(hmr,
                 bindings = <
                 &kp TILDE             &kp AMPS      &kp ASTRK         &kp LPAR          &kp UNDER                  &none            &none              &none           &none           &none           
                 &kp GRAVE             &kp DLLR      &kp PRCNT         &kp CARET         &kp MINUS                  &none            &none              &none           &none           &none           
-                &none                 &kp EXCL      &kp AT            &kp HASH          &none                      &none            &none              &none           &none           &none           
+                &none                 &kp EXCL      &kp AT            &kp HASH          &kp BSLH                   &none            &none              &none           &none           &none           
                                                     &kp LPAR          &kp RPAR          &none                      &trans           &trans             &trans 
                         >;
                 };
